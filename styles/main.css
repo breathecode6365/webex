@@ -29,10 +29,11 @@ body {
     font-size: 100%;
     font-weight: 400;
     line-height: 1.5;
+    background: #080808;
 }
 
 .hero {
-    background: #080808;
+
     color: white;
     padding: 0 16% 0 16%;
 }
@@ -108,3 +109,74 @@ body {
 .hero .hero_body .hero_photo {
     margin-left: auto;
 }
+.education{
+    margin-top: 5%;
+    color: white;
+    padding: 0 16% 0 16%;
+}
+.education_header{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.edu_details_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5rem;
+    margin-top: 6%;
+}
+.edu_tagline{
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.edu_block p{
+    opacity: 0.7;
+}
+.projects{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+    padding: 0 16% 0 16%;
+}
+.projects_header{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.project_block{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    margin-top: 5%;
+}
+.project_image{
+    background-image: url("../statics/pimage.png");
+    width: 400px;
+    height: 300px;
+}
+.project_content h{
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.project_content{
+    margin-top: 30px;
+}
+.project_content p{
+    margin: 10px 0 20px;
+    opacity: 0.7;
+    font-size: 0.9rem;
+}
+.project_content a{
+    display: inline-block;
+    padding: 0.8rem 2.8rem;
+    font-weight: 700;
+    background: #3F8E00;
+    border: 1px solid #3F8E00;
+    box-shadow: 0 8px 30px rgba(63, 142, 0, 0.5);
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+}
+
+
